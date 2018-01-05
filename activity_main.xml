@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ritapermata.birthdaycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bd"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, Anna"
+        android:textSize="30dp"
+        android:textColor="#3d3c3c"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do everything you love.
+        Smile big and laugh loud"
+        android:layout_marginTop="230dp"
+        android:textColor="#11019c"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="From Rita"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#4e4e4e"
+        android:fontFamily="cursive"
+        android:gravity="bottom"
+        android:layout_marginLeft="240dp"/>
+
+</RelativeLayout>
